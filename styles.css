@@ -21,15 +21,15 @@ form{
 
 input {
     color: var(--text);
+    background-color: var(--background);
     padding-bottom: 0.1vh;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Bros Oskon 90s', cursive;
     border: 2px solid var(--nice);
-
 }
 
 body {
     background-color: var(--background);
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Times New Roman', cursive;
     margin: 0;
     padding: 0;
 }
@@ -72,6 +72,16 @@ header h1 {
 
 #research {
     font-size: 0.7vh;
+}
+
+button {
+    background-color: var(--nice);
+    color: var(--background);
+    border: 2px solid var(--nice);
+    padding: 5px 10px;
+    font-size: 1.2vh;
+    text-decoration: underline;
+    margin-top: 10px;
 }
 
 nav {
