@@ -60,10 +60,6 @@ header h1 {
     text-align: end;
 }
 
-#required:after {
-    content: "*";
-}
-
 #disqualifiers {
     color: var(--nice);
     font-size: 1.0vh;
@@ -106,10 +102,13 @@ main {
 }
 
 footer {
-    background-color: var(--light);
-    padding: 10px;
+    background-color: var(--background);
     text-align: center;
-    font-size: 0.9em;
+    color: var(--light);
+    font-size: 0.7em;
+    height: auto;
+    margin: 4% 0 0% 0;
+    padding: 0.3%;
 }
 
 header h1 {
@@ -137,11 +136,4 @@ nav a:hover {
 
 main {
     padding: 20px;
-}
-
-footer {
-    background-color: var(--light);
-    padding: 10px;
-    text-align: center;
-    font-size: 0.9em;
 }

@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Mystery Page</title>
+    <title>Ihre Bewerbung</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="205_MI_BDE_SSI.png">
 </head>
 <body>
     <header content-type="application/x-www-form-urlencoded">
@@ -18,6 +19,7 @@
                 Unser Einstellungsprozess kann langwierig sein, aber er könnte zu einer aufregenden Karriere führen, in der Sie einen Unterschied für unser Land machen können.<br>
                 Wir möchten, dass alle unsere Kandidaten den Einstellungsprozess mit Vertrauen und Leichtigkeit durchlaufen.
             </p>
+            <p id="ooc">Bitte beantworten Sie die untenstehenden Fragen aus der Sicht ihres Charakters. Alle wesentlichen Infos sollten Sie auf dieser Seite finden.</p>
             <p id="research"><br><br>Unser Einstellungsprozess<br>
                 Aufgrund der geheimen Natur unserer Arbeit müssen alle Bewerber einen umfassenden Sicherheitsüberprüfungsprozess durchlaufen.
                 <br><br>Hintergrunduntersuchung<br>
@@ -47,6 +49,12 @@
         <p id="required">*=benötigt</p>
         <!-- Details -->
         <div class="form-control">
+
+            <label for="code" id="label-code">
+                Ihre erhaltene 6-Stellige Identifikationsnummer*
+            </label><br>           
+            <input type="text" name="code" 
+                   placeholder="Geben Sie Ihre Identifikationsnummer an" required/><br>
 
             <label for="name" id="label-name">
                 Name*
@@ -148,7 +156,7 @@
             <label for="mentalFitness" id="label-mentalFitness">
                 Bitte nennen Sie ihre zertifizierten IQ-Test Ergebnisse.*
             </label><br>
-            <input type="number" name="mentalFitness" min="1" max="100" placeholder="Geben Sie Ihre Intelligenzwertung an" required/><br>
+            <input type="number" name="mentalFitness" min="1" max="300" placeholder="Geben Sie Ihre Intelligenzwertung an" required/><br>
 
             <label for="physicalFitness" id="label-physicalFitness">
                 Auf einer Skala von 1 bis 100, wie würden andere ihre physische Fitness beschreiben?*
@@ -160,6 +168,10 @@
             </label><br>
             <input type="text" name="hobby" placeholder="Geben Sie Ihre Freizeitsinteressen an" required/><br>
 
+            <label for="description" id="label-description">
+                Beschreibung*
+            </label><br>
+            <input type="text" name="description" placeholder="Geben Sie eine Beschreibung ihrer Selbst an" required/><br>
 
             <label for="workplace" id="label-workplace">
                 Ehemalige Arbeitsplätze und Positionen
@@ -206,7 +218,7 @@
         </details>
     </main>
     <footer>
-        <p>&copy; 1997 205MIBDE</p>
+        <p>&copy; 1997 205MIBDE   -    It Will Be Done</p>
     </footer>
 </body>
 </html>
